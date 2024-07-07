@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{ height: 10vh; background-color: rgb(20, 38, 65); 
+display: flex; align-items: center; }
+
+a{ text-decoration: none; color: rgb(255, 255, 255); font-size: 20px;}
+
+.logo{
+     height: 100%; width: 30%; padding: 10px; 
+}
+
+.direcciones{ display: flex; gap: 10px;}
+
+.active{ text-decoration: underline;}
+
+main{ 
+   background-image: url(./blurred-gym-background-presentation-banners-600nw-1722169303.webp); background-size: cover; background-position: center;
+height: 90vh;
+display: flex; justify-content: center; align-items: center;
+}
+
+.cuadro{
+    background-color: rgba(100, 100, 100, 0.486); border-radius: 20px;
+    height: 90%; width: 40%;
+}
+
+.cuadrito{
+    color: rgb(255, 255, 255);
+    height: 10%; display: flex; align-items: center; justify-content: center; 
+}
+
+form{ height: 80%;
+     display: flex;  gap: 20px; flex-direction: column;
+     padding: 20px; 
+}
+
+.cuadritodoble{ display: flex; gap: 10px;}
+
+.bott{  transition: all, 1s;
+        background-color: rgb(10, 1, 94); 
+        padding: 10px;
+        color: white; border: none;
+    
+        }
+
+.bott:hover{
+    padding: 13px;
+    cursor: pointer;
+ }
+
+input{ height: 30px; width: 50%; border: none; background-color: rgb(255, 255, 255); outline: none; 
+padding: 5px;}
